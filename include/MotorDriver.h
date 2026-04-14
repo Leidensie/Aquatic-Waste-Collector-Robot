@@ -1,5 +1,5 @@
-#ifndef MOTORDRIVER.H 
-#define MOTORDRIVER.H 
+#ifndef MOTORDRIVER_H
+#define MOTORDRIVER_H
 #include <Arduino.h>
 
 class MotorDriver{
