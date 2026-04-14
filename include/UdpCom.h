@@ -12,6 +12,11 @@ private:
     const char* _password;
     char _package[255];
 
+    //target IP adress 
+
+    IPAddress _target_IP;
+    uint16_t _target_port;
+
     uint16_t _port;
     WiFiUDP _udp;
     
@@ -25,6 +30,8 @@ public:
 //    void stop();
 
     String listen();
+
+    void send(String data);
 
 
 };

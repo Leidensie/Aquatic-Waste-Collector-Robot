@@ -24,4 +24,5 @@ float DistanceControl::CalDistance() {
 
     m_sonMesafe = distance;
     return distance;
+    
 }

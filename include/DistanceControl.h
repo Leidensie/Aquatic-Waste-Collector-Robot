@@ -9,6 +9,7 @@ class DistanceControl {
     uint8_t m_echopin;
     float m_sonMesafe;
 
+
   public:
     DistanceControl();
     float CalDistance();
